@@ -8,6 +8,92 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table border = "">
+	<thead>
+		<form method = "post">
+		<tr>
+		     <th style width ="100px">Field</th>
+			 <th style width = "75px">Type</th>
+			 <th style width = "75px">Required</th>
+			 <th style width = "200px">ID</th>
+			<th style width = "150px">Placeholder</th>
+		</tr>
+	</thead>
+<tbody>
+		<tr>
+			<td>Name</td>
+			<td>Text</td>
+			<td>Yes</td>
+			<td>#name</td>
+			<td> <input type = "text" placeholder= "Name"> </td>
+		</tr>
+	<tr>
+			<td>Email</td>
+			<td>Email</td>
+			<td>Yes</td>
+			<td>#email</td>
+			<td> <input type = "email" placeholder= "Email"> </td>
+		</tr>
+	<tr style height = "50px">
+			<td>Gender</td>
+			<td>Radio</td>
+			<td>Yes</td>
+			<td>#gender_m <br> #gender_f</td>
+			<td> <input type = "radio" name="gender">M<input type = "radio" name="gender">F </td>
+		</tr>
+	<tr style height = "50px">
+			<td>Car Brands</td>
+			<td>Select</td>
+			<td>Yes</td>
+			<td>#cars</td>
+			<td> --Please choose an option- <select ><option>BMW</option><option>TATA</option><option>KIA</option><option>mahindra</option></select> </td>
+		</tr>
+		<tr>
+			<td>Age</td>
+			<td>Number</td>
+			<td>Yes</td>
+			<td>#age</td>
+			<td> <input type = "number" placeholder= "Age"> </td>
+		</tr>
+		<tr>
+			<td>DOB</td>
+			<td>Date</td>
+			<td>Yes</td>
+			<td>#dob</td>
+			<td> <input type = "date" placeholder= ""> </td>
+		</tr>
+	<tr>
+			<td>Phone Number</td>
+			<td>Tel</td>
+			<td>No</td>
+			<td>#tel</td>
+		<label for="Phone Number"> firstname</label>
+			<td> <input type = "number" id = "Phone Number" placeholder= "xxx-xxx-xxxx"> </td>
+		</tr>
+	<tr>
+			<td>Password</td>
+			<td>Password</td>
+			<td>Yes</td>
+			<td>#password</td>
+		<label for="Password"> firstname</label>
+			<td> <input type = "Password" id = "Password" placeholder= "Password"> </td>
+		</tr>
+	<tr style height = "50px">
+			<td> I agree to the tos</td>
+			<td>Checkbox</td>
+			<td>Yes</td>
+			<td>#tos</td>
+		<label for="checkbox"> firstname</label>
+			<td> <input type = "checkbox" id = "checkbox" placeholder= ""> </td>
+		</tr>
+</tbody>
+		
+
+
+
+
+		</form>
+	</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
