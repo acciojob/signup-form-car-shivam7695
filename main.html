@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 
 <html>
@@ -7,99 +9,33 @@
 </head>
 
 <body>
+	   <form action="" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" required placeholder="Name">
+      <label for="email">Email</label>
+      <input type="text" id="email" required placeholder="Email">
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" id="gender_m" required>
+      <input type="radio" name="gender" id="gender_f"required>
+      <label for="cars">Car Brands</label>
+      <select name="cars" id="cars" required aria-placeholder="--Please choose an option-">
+         <option value="banze">benze</option>
+         <option value="bmw">BMW</option>
+         <option value="scarpio">scarpio</option>
+      </select>
+      <label for="age">Age</label>
+      <input type="number" name="age" required id="age"> 
+      <label for="dob">DOB</label>
+      <input type="date" name="dob" id="dob" required>
+      <label for="tel">Phone Number</label>
+      <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required>
+      <label for="tos">I agree to the TOS</label>
+      <input type="checkbox" name="" id="tos" required>
+		         <button type="submit">submit</button>
+   </form>
 	<!-- the entire body must be written by student -->
-	<table border = "">
-	<thead>
-		<form method = "post">
-		<tr>
-		     <th style width ="100px">Field</th>
-			 <th style width = "75px">Type</th>
-			 <th style width = "75px">Required</th>
-			 <th style width = "200px">ID</th>
-			<th style width = "150px">Placeholder</th>
-		</tr>
-	</thead>
-<tbody>
-		<tr>
-			<td>Name</td>
-			<td>Text</td>
-			<td>Yes</td>
-			<td>#name</td>
-			<label for="name"> </label>
-			<td> <input type = "text" id="name" placeholder= "Name"> </td>
-		</tr>
-	<tr>
-			<td>Email</td>
-			<td>Email</td>
-			<td>Yes</td>
-			<td>#email</td>
-		<label for="email"> </label>
-			<td> <input type = "email" id = "email" placeholder= "Email"> </td>
-		</tr>
-	<tr style height = "50px">
-			<td>Gender</td>
-			<td>Radio</td>
-			<td>Yes</td>
-			<td>#gender_m <br> #gender_f</td>
-		<label for="gender"> </label>
-			<td> <input type = "radio" id = "gender" name="gender">M<input type = "radio" name="gender">F </td>
-		</tr>
-	<tr style height = "50px">
-			<td>Car Brands</td>
-			<td>Select</td>
-			<td>Yes</td>
-			<td>#cars</td>
-		<label for="cars"> </label>
-			<td> --Please choose an option- <select id = "cars" ><option>BMW</option><option>TATA</option><option>KIA</option><option>mahindra</option></select> </td>
-		</tr>
-		<tr>
-			<td>Age</td>
-			<td>Number</td>
-			<td>Yes</td>
-			<td>#age</td>
-			<label for="age"> </label>
-			<td> <input type = "number" id="age" placeholder= "Age"> </td>
-		</tr>
-		<tr>
-			<td>DOB</td>
-			<td>Date</td>
-			<td>Yes</td>
-			<td>#dob</td>
-			<label for="date"> </label>
-			<td> <input type = "date"  id = "date" placeholder= ""> </td>
-		</tr>
-	<tr>
-			<td>Phone Number</td>
-			<td>Tel</td>
-			<td>No</td>
-			<td>#tel</td>
-		<label for="Phone Number"> </label>
-			<td> <input type = "number" id = "Phone Number" placeholder= "xxx-xxx-xxxx"> </td>
-		</tr>
-	<tr>
-			<td>Password</td>
-			<td>Password</td>
-			<td>Yes</td>
-			<td>#password</td>
-		<label for="Password"> </label>
-			<td> <input type = "Password" id = "Password" placeholder= "Password"> </td>
-		</tr>
-	<tr style height = "50px">
-			<td> I agree to the tos</td>
-			<td>Checkbox</td>
-			<td>Yes</td>
-			<td>#tos</td>
-		<label for="checkbox"></label>
-			<td> <input type = "checkbox" id = "checkbox" placeholder= ""> </td>
-		</tr>
-</tbody>
-		
-
-
-
-
-		</form>
-	</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
